@@ -5,7 +5,7 @@ from datetime import datetime, timezone
 TOKEN   = "8190184114:AAFVwCQDkvZjEOKppELJzYXaCOSvF3LrLGY"
 CHAT_ID = "1545010843"
 SYMBOL  = "LTCUSDT"
-BINANCE_URL = "https://api.binance.com/api/v3/klines"
+BINANCE_URL = "https://api.proxybinance.com/api/v3/klines"
 ANALYSIS_INTERVAL_SEC = 45  # revisar cada 45 segundos
 
 # === FUNCIONES BASE ===
@@ -151,3 +151,4 @@ def command_listener():
 
 if __name__ == "__main__":
     command_listener()
+
